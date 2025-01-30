@@ -1,6 +1,7 @@
 {
   "name": "isitsoup",
   "version": "0.0.0",
+  "homepage": "https://sammynator.github.io/isitsoup/",
   "private": true,
   "type": "module",
   "scripts": {
