@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/isitthis/", //necesarry for getting page up
+  base: "/isitsoup/", //necesarry for getting page up
   plugins: [
     vue(),
     vueDevTools(),
