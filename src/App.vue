@@ -9,7 +9,9 @@ const checkIfSoup = () => {
   // Only assign a result if it hasn't been set yet
   if (result.value === null) {
     result.value =
-      Math.random() > 0.5 ? "Yes, this is soup! 🍜" : "No, this is NOT soup! ❌";
+      Math.random() < 0.1
+        ? "Yes, this is soup! 🍜"
+        : "No, this is NOT soup! ❌";
   }
 };
 
